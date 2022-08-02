@@ -1,5 +1,12 @@
+html {
+    font-family: 'Inconsolata', monospace;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
 .wrapper {
-    background-color: aliceblue;
+    background-color: #f7fff7;
 }
 
 .background-gradient {
@@ -20,4 +27,79 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 3em;
+    
+    
+    column-gap: 15px;
+}
+
+#micha {
+    color:rgb(228, 61, 139);
+    flex-grow: 1;
+    flex-shrink: 1;
+    width:150px;
+    text-align: right;
+}
+
+#schmitt {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width:150px;
+    text-align: left;
+}
+
+.work {
+    position: relative;
+    top:26%;
+    left:50%;
+    font-size: larger;
+    color: #1a535c;
+}
+
+#welcome {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+#about_me {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width:90%;
+    height:60%;
+    display: flex;
+    column-gap: 2rem;
+}
+
+.about_title {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    width:9rem;
+}
+
+#about_me_left {
+    width:100%;
+    padding: 1rem;
+    background-color: #D3D3D3;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 30%, 19% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 30%, 19% 0);
+}
+#about_me_right {
+    width:100%;
+    padding: 1rem;
+}
+
+#about_me_pre {
+    font-size: 1rem;
 }

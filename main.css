@@ -1,0 +1,23 @@
+.wrapper {
+    background-color: aliceblue;
+}
+
+.background-gradient {
+    background-image: linear-gradient(to bottom right, rgb(16, 133, 201), rgb(0, 255, 145));
+}
+
+.introduction-box {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 5% auto;
+    border-radius: 6px;
+}
+
+.intro-wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
